@@ -1,11 +1,10 @@
 //
 // Copyright (C) 2024 The LineageOS Project
+//
 // SPDX-License-Identifier: Apache-2.0
 //
 
-prebuilt_etc {
-    name: "init.dm3q.rc",
-    src: "init.dm3q.rc",
-    sub_dir: "init/hw",
+runtime_resource_overlay {
+    name: "WifiResTargetDm3q",
     vendor: true,
 }
